@@ -1,0 +1,1 @@
+# vue-prime-eslint-config
