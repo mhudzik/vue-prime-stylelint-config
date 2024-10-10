@@ -1,1 +1,1 @@
-# vue-prime-eslint-config
+# vue-prime-stylelint-config
