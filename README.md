@@ -1,1 +1,1 @@
-# vue-prime-stylelint-config
+# @dev-prime/stylelint-config

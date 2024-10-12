@@ -1,5 +1,5 @@
 {
-  "name": "vue-prime-stylelint-config",
+  "name": "@dev-prime/stylelint-config",
   "version": "1.0.0",
   "description": "Stylelint config for enforcing SCSS standards in frontend projects.",
   "main": "dist/index.js",
