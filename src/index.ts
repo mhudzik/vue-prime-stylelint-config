@@ -22,13 +22,51 @@ const stylelintConfig: Config = {
 
     "order/properties-order": [
       [
+        // Display & positioning
         "display",
+        "visibility",
+        "position",
+        "top",
+        "right",
+        "bottom",
+        "left",
+        "z-index",
+        "float",
+        "clear",
+        // Dimensions
+        "width",
+        "height",
+        "min-width",
+        "min-height",
+        "max-width",
+        "max-height",
+        "margin",
+        "margin-top",
+        "margin-right",
+        "margin-bottom",
+        "margin-left",
+        "padding",
+        "padding-top",
+        "padding-right",
+        "padding-bottom",
+        "padding-left",
+        // Box model
+        "border",
+        "border-width",
+        "border-style",
+        "border-color",
+        "border-radius",
+        "box-sizing",
+        "overflow",
+        "overflow-x",
+        "overflow-y"
       ],
       {
-        unspecified: "bottom",
+        "unspecified": "bottomAlphabetical"
       }
     ],
-  }
+  },
+  customSyntax: "postcss-scss",
 };
 
 export = stylelintConfig;
